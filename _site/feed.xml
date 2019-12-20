@@ -6,16 +6,37 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 20 Dec 2019 14:28:52 +0100</pubDate>
-    <lastBuildDate>Fri, 20 Dec 2019 14:28:52 +0100</lastBuildDate>
+    <pubDate>Fri, 20 Dec 2019 17:38:00 +0100</pubDate>
+    <lastBuildDate>Fri, 20 Dec 2019 17:38:00 +0100</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
-        <title>None</title>
-        <description>&lt;p&gt;This is just a dummy post. Lorem ipsum and all the rest.&lt;/p&gt; &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...</description>
-        <pubDate>Fri, 20 Dec 2019 01:00:00 +0100</pubDate>
-        <link>http://localhost:4000/jekyll/2019/12/20/None.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll/2019/12/20/None.html</guid>
+        <title>Introduction</title>
+        <description>&lt;p&gt;If you ask some elderlies, they may say a little dirt never killed anybody. But recently food safety has become a more and more serious issue all around the world...</description>
+        <pubDate>Thu, 19 Dec 2019 23:30:00 +0100</pubDate>
+        <link>http://localhost:4000/jekyll/2019/12/19/Introduction.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/2019/12/19/Introduction.html</guid>
+        
+        <category>Introduction</category>
+        
+        <category>Chicago</category>
+        
+        <category>Food</category>
+        
+        <category>Security</category>
+        
+        
+        <category>Jekyll</category>
+        
+      </item>
+    
+      <item>
+        <title>Data Description</title>
+        <description>
+</description>
+        <pubDate>Thu, 19 Dec 2019 23:00:00 +0100</pubDate>
+        <link>http://localhost:4000/jekyll/2019/12/19/Data-Description.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/2019/12/19/Data-Description.html</guid>
         
         <category>ipsum</category>
         
@@ -25,15 +46,11 @@
       </item>
     
       <item>
-        <title>Introduction</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different...</description>
-        <pubDate>Fri, 20 Dec 2019 01:00:00 +0100</pubDate>
-        <link>http://localhost:4000/jekyll/2019/12/20/Introduction.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll/2019/12/20/Introduction.html</guid>
-        
-        <category>jekyll</category>
-        
-        <category>welcome</category>
+        <title>Evaluation of Inspection Methods</title>
+        <description>&lt;p&gt;This is just a dummy post. Lorem ipsum and all the rest.&lt;/p&gt; &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...</description>
+        <pubDate>Thu, 19 Dec 2019 22:00:00 +0100</pubDate>
+        <link>http://localhost:4000/jekyll/2019/12/19/Evaluation-of-Inspection-Methods.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/2019/12/19/Evaluation-of-Inspection-Methods.html</guid>
         
         
         <category>Jekyll</category>
@@ -41,11 +58,11 @@
       </item>
     
       <item>
-        <title>Effectiveness</title>
+        <title>Analysis of Changement for Violations</title>
         <description>&lt;p&gt;This is just a dummy post. Lorem ipsum and all the rest.&lt;/p&gt; &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...</description>
-        <pubDate>Fri, 20 Dec 2019 01:00:00 +0100</pubDate>
-        <link>http://localhost:4000/jekyll/2019/12/20/Effectiveness.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll/2019/12/20/Effectiveness.html</guid>
+        <pubDate>Thu, 19 Dec 2019 21:00:00 +0100</pubDate>
+        <link>http://localhost:4000/jekyll/2019/12/19/Analysis-of-Changement-for-Violations.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/2019/12/19/Analysis-of-Changement-for-Violations.html</guid>
         
         
         <category>Jekyll</category>
@@ -53,25 +70,15 @@
       </item>
     
       <item>
-        <title>Difference</title>
+        <title>Conclusion</title>
         <description>&lt;p&gt;This is just a dummy post. Lorem ipsum and all the rest.&lt;/p&gt; &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...</description>
-        <pubDate>Fri, 20 Dec 2019 01:00:00 +0100</pubDate>
-        <link>http://localhost:4000/jekyll/2019/12/20/Difference.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll/2019/12/20/Difference.html</guid>
+        <pubDate>Thu, 19 Dec 2019 07:00:00 +0100</pubDate>
+        <link>http://localhost:4000/jekyll/2019/12/19/Difference.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/2019/12/19/Difference.html</guid>
         
         <category>lorem</category>
         
-        
-        <category>Jekyll</category>
-        
-      </item>
-    
-      <item>
-        <title>None2</title>
-        <description>&lt;p&gt;This is just a dummy post. Lorem ipsum and all the rest.&lt;/p&gt; &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...</description>
-        <pubDate>Fri, 20 Dec 2019 01:00:00 +0100</pubDate>
-        <link>http://localhost:4000/jekyll/2019/12/20/dummy3.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll/2019/12/20/dummy3.html</guid>
+        <category>Chicago</category>
         
         
         <category>Jekyll</category>

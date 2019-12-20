@@ -1,17 +1,29 @@
 ---
 layout: page
-title: About
+title: About Theme
 permalink: /about/
 main_nav: true
 ---
+# Food Insecurity in Chicago
+food insecurity is the condition where people cannot reliably access adequate, nutritious food.
 
-![alt text]({{ site.baseurl }}/assets/profile-placeholder.gif "Profile Picture"){:.profile}
+## What should you care?
+If you care about sustainability, you should care about food security!
+The Environment: The quality and amount of land available for growing food is declining. Also, the oil and gas used to transport food long distances contributes to poorer air quality.
+Equity: Everyone everywhere should have access to healthy food that will promote their well being. We should end hunger.
+Economy & Health: Improved health is beneficial to health expenses and the overall economy.  
 
-Centrarium is a custom theme for Jekyll, made by [Ben Centra][bencentra] for his own blog. He'd be humbled if you liked it enough to use it as well! Installation and configuration instructions can be found in the [GitHub repository](https://github.com/bencentra/centrarium).
+## Who does this affect?
+80% of a city’s sewage is contributed by food system activities.
+25% of fossil fuel use and air pollution is attributable to food production, processing, and transport (University of Southern California).  
 
-This page is a good place to write about yourself, your project, your product, or whatever it is your site is for. You can replace the image above, or you can get rid of it entirely. 
+![Poor-working](/assets/poor.png)  
 
-You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/). And you can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+According to the Harvard School of Public Health (HSPH), "a day’s worth of the most healthy diet patterns cost about $1.50 more per day than the least healthy ones."
+Though this seems inexpensive, this is almost $550 more per year. This could be a burden for some families, especially the working poor.  
+
+## What should we do?
+Take Actions to Change NOW!
 
 [centrarium]: https://github.com/bencentra/centrarium
 [bencentra]: http://bencentra.com

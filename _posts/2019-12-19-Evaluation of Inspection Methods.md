@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "None2"
-date:   2019-12-20 00:00:00
+title:  "Evaluation of Inspection Methods"
+date:   2019-12-19 21:00:00
 author: Pierre
 categories: Jekyll
 ---
