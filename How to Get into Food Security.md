@@ -1,6 +1,7 @@
 ---
 layout: page
-title: "Content"
+title: "How to Get into Food Security"
+date:   2019-12-19 20:00:00
 permalink: /posts/
 main_nav: true
 cover:  "/assets/header_imag.jpg"
