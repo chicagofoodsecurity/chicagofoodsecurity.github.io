@@ -36,7 +36,10 @@
 <loc>http://localhost:4000/tag/chicago/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/tag/ipsum/</loc>
+<loc>http://localhost:4000/tag/facilities/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/description/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/tag/introduction/</loc>

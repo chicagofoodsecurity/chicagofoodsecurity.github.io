@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Theme
+title: About Topic
 permalink: /about/
 main_nav: true
 ---

@@ -8,7 +8,7 @@ tags:	Introduction Chicago Food Security
 cover:  "/assets/instacode.png"
 ---
 
-If you ask some elderlies, they may say a little dirt never killed anybody. But recently food safety has become a more and more serious issue all around the world especially considering eating outside. Therefore, inspections are performed by staff from the Chicago Department of Public Health’s Food Protection Program using a standardized procedure. Thanks to Kaggle’s data platform, we can get a sense of the sanitary performance of the food establishments in Chicago with the results of the inspection and possibly understand the food hygiene condition all over the world through this small state.
+If you ask some elderlies, they may say a little dirt never killed anybody. But recently food security has become a more and more serious issue all around the world especially considering eating outside. Therefore, inspections are performed by staff from the Chicago Department of Public Health’s Food Protection Program using a standardized procedure to improve the situation. However, our group wonder whether the Inspection Methods works and what advice we could give to the department. From the kaggle dataset, we can get a sense of the sanitary performance of the food establishments in Chicago with the results of the inspection that we could give more useful advice to department and made the food sanitary conditions better.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
 ![Inspection](/assets/Inspection.png)
