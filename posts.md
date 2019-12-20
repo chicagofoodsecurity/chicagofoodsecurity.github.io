@@ -1,8 +1,9 @@
 ---
 layout: page
-title: "Posts"
+title: "Content"
 permalink: /posts/
 main_nav: true
+cover:  "/assets/header_imag.jpg"
 ---
 
 {% for category in site.categories %}

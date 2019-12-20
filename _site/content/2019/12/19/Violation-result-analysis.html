@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Violation result analysis</title>
+  <meta name="description" content="Violation result analysis1. Basic result analysisWe noticed that the Nan values distributions over differents are quite different. Except the situation of mi...">
+  
+  <meta name="author" content="Pierre">
+  <meta name="copyright" content="&copy; Pierre 2019">
+  
+
+  <!-- External libraries -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/monokai-sublime.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css">
+
+  <!-- Favicon and other icons (made with http://www.favicon-generator.org/) -->
+  <link rel="shortcut icon" href="/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/assets/icons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+  <link rel="manifest" href="/assets/icons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/assets/icons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  
+  <!-- Facebook OGP cards -->
+  <meta property="og:description" content="Violation result analysis1. Basic result analysisWe noticed that the Nan values distributions over differents are quite different. Except the situation of mi..." />
+  <meta property="og:url" content="http://localhost:4000/content/2019/12/19/Violation-result-analysis.html">
+  <meta property="og:site_name" content="" />
+  <meta property="og:title" content="Violation result analysis" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="http://localhost:4000/assets/logo.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="612" />
+  <meta property="og:image:height" content="605" />
+  
+
+  
+  <!-- Twitter: card tags -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Violation result analysis">
+  <meta name="twitter:description" content="Violation result analysis1. Basic result analysisWe noticed that the Nan values distributions over differents are quite different. Except the situation of mi...">
+  <meta name="twitter:image" content="http://localhost:4000/assets/logo.png">
+  <meta name="twitter:url" content="http://localhost:4000/content/2019/12/19/Violation-result-analysis.html">
+  
+
+  
+
+  <!-- Site styles -->
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/content/2019/12/19/Violation-result-analysis.html">
+	<link rel="alternate" type="application/rss+xml" title="" href="http://localhost:4000/feed.xml" />
+	
+	<!-- Tooltips -->
+	<script type="text/javascript">
+		window.tooltips = []
+	</script>
+</head>
+
+
+  <body>
+
+    <header class="navigation" role="banner">
+  <div class="navigation-wrapper">
+    <a href="/" class="logo">
+      
+      <img src="/assets/logo.png" alt="">
+      
+    </a>
+    <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <nav role="navigation">
+      <ul id="js-navigation-menu" class="navigation-menu show">
+				
+	
+	<li class="nav-link"><a href="/about/">About Topic</a>
+	
+
+	
+
+	
+	<li class="nav-link"><a href="/Group Members/">Group Members</a>
+	
+
+	
+
+	
+	<li class="nav-link"><a href="/posts/">Content</a>
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+    <div class="page-content">
+        <div class="post">
+
+<div class="post-header-container " >
+  <div class="scrim ">
+    <header class="post-header">
+      <h1 class="title">Violation result analysis</h1>
+      <p class="info">by <strong>Lei</strong></p>
+    </header>
+  </div>
+</div>
+
+<div class="wrapper">
+
+ <span class="page-divider">
+  <span class="one"></span>
+  <span class="two"></span>
+</span>
+ 
+
+<section class="post-meta">
+  <div class="post-date">December 19, 2019</div>
+  <div class="post-categories">
+  in 
+    
+    <a href="/category/Content">Content</a>
+    
+  
+  </div>
+</section>
+
+<article class="post-content">
+  <h1 id="violation-result-analysis">Violation result analysis</h1>
+<h2 id="1-basic-result-analysis">1. Basic result analysis</h2>
+<p>We noticed that the <code class="highlighter-rouge">Nan</code> values distributions over differents are quite different. <br />
+Except the situation of missing values,<code class="highlighter-rouge">Nan</code> values’ proportion are higher in <code class="highlighter-rouge">Pass</code>,<code class="highlighter-rouge">License Suspended</code>,<code class="highlighter-rouge">No Entry</code> and <code class="highlighter-rouge">Not ready</code> we considering that there are different reasons each ithem that occur this phenomena: <br /></p>
+<ul>
+  <li><code class="highlighter-rouge">Pass</code> We consider that this indicate that there is no violations were found during the inspection.</li>
+  <li><code class="highlighter-rouge">License Suspended</code> From the dataset discription,we know that suspending license only occurs when critial violations found or violation not been corrected before re-inspection.<br /> We think that reason why this category has such <code class="highlighter-rouge">Nan</code> value proportion is that when the most inspector didn’t record the violatons once they decided to suspend the license of the ficility.</li>
+  <li><code class="highlighter-rouge">Not Ready</code> and <code class="highlighter-rouge">No Entry</code> have similar sitiation that happened in <code class="highlighter-rouge">License Suspended</code>
+<br /></li>
+</ul>
+
+<p><img src="/assets/violation/Nah.png" alt="Nah" height="300px" /></p>
+
+<h2 id="2-description-of-inspection">2. Description of Inspection</h2>
+<p>According to the website about the detail of Chicago food inspection description:<u><a href="https://webapps1.chicago.gov/healthinspection/Code_Violations.jsp?fbclid=IwAR0NMn4WEEQqHelYLRwh-z1czAhMinI0ufWgbK33bfjxA6B7sn0qlCTiraQ#1crit">link</a></u>.<br />
+We can see that the results are related to the violations and the inspection type of this inspection.In this document, there is detailed description of different violations.</p>
+
+<ul>
+  <li>Critical vioilation: From the description,Onece a critical violation found in fiacity,if it can not be corrected immediately,it will recieve a <code class="highlighter-rouge">License suspended</code>.</li>
+  <li>Serious violation: Serious violationo found without correction immediately won’t casuse <code class="highlighter-rouge">License suspended</code>, only cause <code class="highlighter-rouge">Fail</code> and a re inspection.But if serious violation found in re inspection will cause a <code class="highlighter-rouge">License sunspended</code>.</li>
+  <li>
+    <p>Minor violarion: within Minor violations can still have a <code class="highlighter-rouge">Pass</code> result.</p>
+  </li>
+  <li>Exception: In License related inspections, any violation including ‘Minor’ will cause a <code class="highlighter-rouge">Fail</code></li>
+</ul>
+
+<p>In the following part, We want to have a view of the Violation-Results relationship:
+<img src="/assets/violation/cri_vio_res.jpg" alt="cri_vio_res" height="300px" />
+<img src="/assets/violation/ser_vio_res.jpg" alt="ser_vio_res" height="300px" />
+<img src="/assets/violation/mio_vio_res.jpg" alt="mio_vio_res" height="300px" /></p>
+
+<p>We absored that in real inspection, they didn’t follow exactly as described, for example, In the description, <code class="highlighter-rouge">Fail</code> result won’t appear in the inspections that <code class="highlighter-rouge">Critical viol</code> was found.<br />
+As for different kinds of inspections, it can be easily noticed that their results distributions are not the same as well.</p>
+
+<h2 id="3-violation-changings">3. Violation Changings</h2>
+<p>From the resource of this dataset:<u><a href="https://data.cityofchicago.org/Health-Human-Services/Food-Inspections/4ijn-s7e5">Chicago food inspection</a></u>.<br />We know that the inspection procedures using new form to record the inspection data as described here:<u><a href="http://bit.ly/2yWd2JB">new data form</a></u><br />
+The main Changes are about the Violations, including the categories and responding Violation numbers. In the new dataset, the types of violations are not 45, instead of 63.<br />
+Corresponding name changes of violations’ categories are as follows:</p>
+<ul>
+  <li><code class="highlighter-rouge"> Minor Violations</code>  to <code class="highlighter-rouge">Core (C) Violation</code></li>
+  <li><code class="highlighter-rouge">Serious Violations</code> to <code class="highlighter-rouge">Priority Foundation (PF) Violation</code></li>
+  <li><code class="highlighter-rouge">Critical Violations</code> to <code class="highlighter-rouge">Priority (P) Violation</code><br />
+From the description,it can be seen that there is a corresponding relationship between new and previous violation categories.</li>
+</ul>
+
+<p>For these changed violations, there is no description about the which catagory that new violations should belong to.In this case, we tried to use clustering to group violations depends on their pass rate of 4 most high-frequency inspection types.</p>
+
+<p>Since previous inspection violation have the truth category, We did k-Means clustering for the violations before 1/7/2018 to check the the performance</p>
+
+<p><img src="/assets/violation/over_PCA.png" alt="over_PCA" height="500px" />
+The F1_score of the model above is 0.79 for the violations before 1/7/2018,. And the distance of clustered group can be seen clearly as well.So we did the clustering for the new violation as well.</p>
+
+<p><img src="/assets/violation/over_PCA_af.png" alt="over_PCA_af" height="500px" />
+For the violations after 1/7/2018, The clustering result seems not as well as the one before 1/7/2018.</p>
+
+<p>From graph below,it can be seen that bafore 1/7/2018, although pass_rate and pass_w_condition rate fluctuate some times,the overall trend is stabilizing. 
+While after 1/7/2018,the ratio of these two inspection results to all results is reversed immediately.And we also can ovbserved that in the further time till newest inspection data,their ration tend to back to previous relationship. We think this might be the reason why it’s hard to use result_rate of certain violation to find out the violation catagory.
+<img src="/assets/violation/res_rate.png" alt="res_rate" height="300px" /></p>
+
+</article>
+
+
+
+
+
+<section class="rss">
+  <p class="rss-subscribe text"><strong>Subscribe <a href="/feed.xml">via RSS</a></strong></p>
+</section>
+
+<section class="share">
+  <span>Share: </span>
+  
+    
+    
+    
+      <a href="//www.facebook.com/sharer.php?t=Violation+result+analysis&u=http%3A%2F%2Flocalhost%3A4000%2Fcontent%2F2019%2F12%2F19%2FViolation-result-analysis.html"
+        onclick="window.open(this.href, 'facebook-share', 'width=550,height=255');return false;">
+        <i class="fa fa-facebook-square fa-lg"></i>
+      </a>
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      <a href="//plus.google.com/share?title=Violation+result+analysis&url=http%3A%2F%2Flocalhost%3A4000%2Fcontent%2F2019%2F12%2F19%2FViolation-result-analysis.html"
+        onclick="window.open(this.href, 'google-plus-share', 'width=550,height=255');return false;">
+        <i class="fa fa-google-plus-square fa-lg"></i>
+      </a>
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+      <a href="//www.pinterest.com/pin/create/button/?description=Violation+result+analysis&url=http%3A%2F%2Flocalhost%3A4000%2Fcontent%2F2019%2F12%2F19%2FViolation-result-analysis.html&media=http://localhost:4000/assets/header_image.jpg"
+        onclick="window.open(this.href, 'pinterest-share', 'width=550,height=255');return false;">
+        <i class="fa fa-pinterest-square fa-lg"></i>
+      </a>
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+      <a href="//www.reddit.com/submit" onclick="window.location = '//www.reddit.com/submit?url=' + encodeURIComponent('http://localhost:4000/content/2019/12/19/Violation-result-analysis.html') + '&title=Violation result analysis'; return false">
+        <i class="fa fa-reddit-square fa-lg"></i>
+      </a>
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+</section>
+
+
+
+
+</div>
+</div>
+
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h3 class="footer-heading"></h3>
+
+    <div class="site-navigation">
+
+      <p><strong>Site Map</strong></p>
+      <ul class="pages">
+				
+	
+	<li class="nav-link"><a href="/about/">About Topic</a>
+	
+
+	
+
+	
+	<li class="nav-link"><a href="/Group Members/">Group Members</a>
+	
+
+	
+
+	
+	<li class="nav-link"><a href="/posts/">Content</a>
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+      </ul>
+    </div>
+
+    <div class="site-contact">
+
+      <p><strong>Contact</strong></p>
+      <ul class="social-media-list">
+        <li>
+          <a href="mailto:lei.pang@epfl.ch">
+            <i class="fa fa-envelope-o"></i>
+            <span class="username">lei.pang@epfl.ch</span>
+          </a>
+        </li>
+
+        
+          
+        
+          
+          <li>
+            <a href="https://github.com/pistache23" title="Fork me on GitHub">
+              <i class="fa fa-github"></i>
+              <span class="username">Pierre</span>
+            </a>
+          </li>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+
+      </ul>
+    </div>
+
+    <div class="site-signature">
+      <p class="rss-subscribe text"><strong>Subscribe <a href="/feed.xml">via RSS</a></strong></p>
+      <p class="text">Sanitary Conditions of Different Facilities in Chicago..
+</p>
+    </div>
+
+  </div>
+
+</footer>
+
+<!-- Scripts -->
+<script src="//code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js"></script>
+<script src="//unpkg.com/popper.js@1"></script>
+<script src="//unpkg.com/tippy.js@5"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+  // Default syntax highlighting
+  hljs.initHighlightingOnLoad();
+
+  // Header
+  var menuToggle = $('#js-mobile-menu').unbind();
+  $('#js-navigation-menu').removeClass("show");
+  menuToggle.on('click', function(e) {
+    e.preventDefault();
+    $('#js-navigation-menu').slideToggle(function(){
+      if($('#js-navigation-menu').is(':hidden')) {
+        $('#js-navigation-menu').removeAttr('style');
+      }
+    });
+  });
+
+	// Enable tooltips via Tippy.js
+	if (Array.isArray(window.tooltips)) {
+		window.tooltips.forEach(function(tooltip) {
+			var selector = tooltip[0];
+			var config = tooltip[1];
+			tippy(selector, config);
+		})
+	}
+});
+
+</script>
+
+
+
+
+
+
+  </body>
+
+</html>
