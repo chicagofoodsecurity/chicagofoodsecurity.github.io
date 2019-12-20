@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 20 Dec 2019 22:55:17 +0100</pubDate>
-    <lastBuildDate>Fri, 20 Dec 2019 22:55:17 +0100</lastBuildDate>
+    <pubDate>Fri, 20 Dec 2019 23:39:26 +0100</pubDate>
+    <lastBuildDate>Fri, 20 Dec 2019 23:39:26 +0100</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
@@ -82,16 +82,18 @@
     
       <item>
         <title>Conclusion</title>
-        <description>&lt;p&gt;#Conclusion&lt;/p&gt;
-
-</description>
+        <description>&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt; &lt;p&gt;The data story contains the contention of our project. We mainly show the most representatives in our story, including descriptive statistics in inspections, inspection effectiveness evaluation and some...</description>
         <pubDate>Thu, 19 Dec 2019 07:00:00 +0100</pubDate>
         <link>http://localhost:4000/content/2019/12/19/Conclusion.html</link>
         <guid isPermaLink="true">http://localhost:4000/content/2019/12/19/Conclusion.html</guid>
         
-        <category>lorem</category>
-        
         <category>Chicago</category>
+        
+        <category>Food</category>
+        
+        <category>Security</category>
+        
+        <category>Conclusion</category>
         
         
         <category>Content</category>
